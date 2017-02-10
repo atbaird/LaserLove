@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<BulletConfigurations>
+  <BulletConfiguration name='defaultBullet' resource='defaultBullet' isASequence='true'>
+    <bullet relativeposition='0.0,0.05' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001, 0.001'/>
+  </BulletConfiguration>
+  <BulletConfiguration name='explodingBullet' resource='bulletConfig1' isASequence='true'>
+    <bullet relativeposition='0.0,0.05' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001, 0.001' numtimestoexplode='1' secondsafterborntodie='1.0'/>
+  </BulletConfiguration>
+  <!-- Don't use the spiralExplodingBullet at the moment; causes immense lag. -->
+  <BulletConfiguration name='spiralExplodingBullet' resource='spiralExplosionBullet' isASequence='true'>
+    <bullet relativeposition='0.0, 0.12' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001,0.001' numtimestoexplode='1' additiveangularvelocityafterexplosion='20.0' addedrotationforimage='0.0' secondsafterborntodie='3.0'/>
+  </BulletConfiguration>
+  <BulletConfiguration name='spiralExplodingBullet2' resource='spiralExplosionBullet' isASequence='true'>
+    <bullet relativeposition='0.0, 0.12' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001,0.001' numtimestoexplode='1' additiveangularvelocityafterexplosion='-20.0' addedrotationforimage='0.0' secondsafterborntodie='3.0'/>
+  </BulletConfiguration>
+
+  <BulletConfiguration name='defaultBullet1' resource='defaultBullet' isASequence='true'>
+    <bullet relativeposition='0.1,0.05' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001, 0.001'/>
+    <bullet relativeposition='-0.1,0.05' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001, 0.001'/>
+  </BulletConfiguration>
+  <BulletConfiguration name='defaultBullet2' resource='defaultBullet' isASequence='true'>
+    <bullet relativeposition='0.0,0.12' angle='0.0' speed='1.0' angularvelocity='0.0' collisionscale='0.001, 0.001'/>
+  </BulletConfiguration>
+  <BulletConfiguration name='defaultBullet3' resource='defaultBullet' isASequence='true'>
+    <bullet relativeposition='0.0,0.05' angle='0.0' speed='1.0' angularvelocity='10.0' collisionscale='0.001, 0.001'/>
+  </BulletConfiguration>
+  <BulletConfiguration name='defaultBullet4' resource='defaultBullet' isASequence='true'>
+    <bullet relativeposition='0.0,0.05' angle='0.0' speed='1.0' angularvelocity='-10.0' collisionscale='0.001, 0.001'/>
+  </BulletConfiguration>
+</BulletConfigurations>

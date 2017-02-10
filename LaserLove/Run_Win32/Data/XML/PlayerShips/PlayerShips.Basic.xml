@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<PlayerShips>
+  <PlayerShip name='playerShip1' health='3' scale='0.25,0.25' resource='PlayerShip' collisionscale='0.05,0.05' speed='1.0'>
+    <spiralExplodingBullet2/>
+  </PlayerShip>
+  <PlayerShip name='playerShip2' health='3' scale='0.25,0.25' resource='enemyShip1' collisionscale='0.05,0.05' speed='1.0'>
+    <defaultBullet/>
+  </PlayerShip>
+</PlayerShips>

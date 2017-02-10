@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<EnemyShipConfigurations>
+  <EnemyShipConfiguration name='EnemyShip1'>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='EnemyShip2'>
+    <EnemyPosition shipname='enemyShip2' relativeposition='0,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='EnemyShip3'>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='EnemyShip4'>
+    <EnemyPosition shipname='enemyShip4' relativeposition='0,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation1'>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0.0,0.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-0.5,0.0'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='0.5,0.0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation2'>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-0.5,1.0'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-0.25,0.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='0.0,0.0'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='0.25,0.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='0.5,1.0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation3'>
+    <EnemyPosition shipname='enemyShip3' relativeposition='-0.5,0'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.5,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation4'>
+    <EnemyPosition shipname='enemyShip3' relativeposition='-0.5,0'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.0,0.5'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.5,0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation5'>
+    <EnemyPosition shipname='enemyShip1' relativeposition='-0.5,0.0'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.0,0.5'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0.5,0.0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation6'>
+    <EnemyPosition shipname='enemyShip2' relativeposition='1.0,1.0'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0.5,0.5'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.0,0.0'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='-0.5,0.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-2.0,1.0'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation7'>
+    <EnemyPosition shipname='enemyShip2' relativeposition='1.25,1.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='1.0,1.0'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0.5,0.5'/>
+    <EnemyPosition shipname='enemyShip3' relativeposition='0.0,0.0'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='-0.5,0.5'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-1.0,1.0'/>
+    <EnemyPosition shipname='enemyShip2' relativeposition='-1.25,1.5'/>
+  </EnemyShipConfiguration>
+  <EnemyShipConfiguration name='formation8'>
+    <EnemyPosition shipname='enemyShip4' relativeposition='0.5,0.5'/>
+    <EnemyPosition shipname='enemyShip1' relativeposition='0.0,0.0'/>
+    <EnemyPosition shipname='enemyShip4' relativeposition='-0.5,0.5'/>
+  </EnemyShipConfiguration>
+</EnemyShipConfigurations>

@@ -1,0 +1,6 @@
+This frame's total seconds taken: 0.018961
+Longest frame total seconds taken: 1.207152
+Total number of frames tested: 1073
+-----
+frame : 0.016401 seconds
+-----

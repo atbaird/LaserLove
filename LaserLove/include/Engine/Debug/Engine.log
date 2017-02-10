@@ -1,0 +1,13 @@
+﻿Build started 8/18/2015 6:21:08 PM.
+     1>Project "D:\Guildhall\p4\C25\Students\atbaird\Projects\Engine\Code\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Guildhall\p4\C25\Students\atbaird\Projects\SD1\Protogame\../../Engine/Code/ /ID:\Guildhall\p4\C25\Students\atbaird\Projects\SD1\Protogame\Code/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Math\Vector2.cpp
+         Vector2.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Guildhall\p4\C25\Students\atbaird\Projects\SD1\Protogame\Debug\Engine.lib" /NOLOGO Debug\Vector2.obj
+         Engine.vcxproj -> D:\Guildhall\p4\C25\Students\atbaird\Projects\SD1\Protogame\Debug\Engine.lib
+     1>Done Building Project "D:\Guildhall\p4\C25\Students\atbaird\Projects\Engine\Code\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

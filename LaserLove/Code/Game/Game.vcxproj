@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{52E32122-78A1-4DEA-B72B-ADE92AEC369A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Protogame</RootNamespace>
+    <ProjectName>LaserLove</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)include\ThirdParty\fmod;$(SolutionDir)include\Engine</IncludePath>
+    <LibraryPath>$(SolutionDir)include\Thirdparty\fmod;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Temporary\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)include\ThirdParty\fmod;$(SolutionDir)include\Engine</IncludePath>
+    <LibraryPath>$(SolutionDir)include\Thirdparty\fmod;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include/;$(SolutionDir)Code/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Code\;$(SolutionDir)lib\;$(SolutionDir)include\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodex_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /F /I "$(TargetPath)" "$(SolutionDir)Run_$(Platform)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying $(TargetFileName) to Run_$(Platform)...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)include/;$(SolutionDir)Code/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Code\;$(SolutionDir)lib\;$(SolutionDir)include\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmodex_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /F /I "$(TargetPath)" "$(SolutionDir)Run_$(Platform)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copying $(TargetFileName) to Run_$(Platform)...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundScroller\BackgroundScroller.cpp" />
+    <ClCompile Include="Bullets\Bullet.cpp" />
+    <ClCompile Include="Bullets\BulletConfiguration.cpp" />
+    <ClCompile Include="Bullets\BulletType.cpp" />
+    <ClCompile Include="Collision\EllipseCollision.cpp" />
+    <ClCompile Include="Collision\CollisionIntersection.cpp" />
+    <ClCompile Include="EnemyGenerator\EnemyConfigurationGenerator.cpp" />
+    <ClCompile Include="EnemyGenerator\EnemyConfigurationTemplate.cpp" />
+    <ClCompile Include="EnemyGenerator\EnemyShipGenerator.cpp" />
+    <ClCompile Include="EnemyGenerator\EnemyTemplate.cpp" />
+    <ClCompile Include="GameEntity\GameEntity.cpp" />
+    <ClCompile Include="GameEntity\GameEntityType.cpp" />
+    <ClCompile Include="GameListCleaner\GameListCleaner.cpp" />
+    <ClCompile Include="PlayerShipSelectImageHandler.cpp" />
+    <ClCompile Include="RealGameState.cpp" />
+    <ClCompile Include="GameState\GameState.cpp" />
+    <ClCompile Include="HUD\HUD.cpp" />
+    <ClCompile Include="Main_Win32.cpp" />
+    <ClCompile Include="ScoreImageUpdater.cpp" />
+    <ClCompile Include="Ships\ControllerType.cpp" />
+    <ClCompile Include="Ships\Controller\Controller.cpp" />
+    <ClCompile Include="Ships\Controller\NPCController.cpp" />
+    <ClCompile Include="Ships\Controller\PlayerController.cpp" />
+    <ClCompile Include="Ships\Ship.cpp" />
+    <ClCompile Include="Ships\ShipType.cpp" />
+    <ClCompile Include="Snow\SnowManager.cpp" />
+    <ClCompile Include="SpriteLoader\CommonVariables.cpp" />
+    <ClCompile Include="SpriteLoader\ResourceNames.cpp" />
+    <ClCompile Include="SpriteLoader\SpriteLoader.cpp" />
+    <ClCompile Include="SpriteLoader\SpriteResourceList.cpp" />
+    <ClCompile Include="TheApp.cpp" />
+    <ClCompile Include="TheGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundScroller\BackgroundScroller.hpp" />
+    <ClInclude Include="Bullets\Bullet.hpp" />
+    <ClInclude Include="Bullets\BulletConfiguration.hpp" />
+    <ClInclude Include="Bullets\BulletType.hpp" />
+    <ClInclude Include="Collision\EllipseCollision.hpp" />
+    <ClInclude Include="Collision\CollisionIntersection.hpp" />
+    <ClInclude Include="EnemyGenerator\EnemyConfigurationGenerator.hpp" />
+    <ClInclude Include="EnemyGenerator\EnemyConfigurationTemplate.hpp" />
+    <ClInclude Include="EnemyGenerator\EnemyShipGenerator.hpp" />
+    <ClInclude Include="EnemyGenerator\EnemyTemplate.hpp" />
+    <ClInclude Include="GameEntity\GameEntity.hpp" />
+    <ClInclude Include="GameEntity\GameEntityType.hpp" />
+    <ClInclude Include="GameListCleaner\GameListCleaner.hpp" />
+    <ClInclude Include="PlayerShipSelectImageHandler.hpp" />
+    <ClInclude Include="RealGameState.hpp" />
+    <ClInclude Include="GameState\GameState.hpp" />
+    <ClInclude Include="HUD\HUD.hpp" />
+    <ClInclude Include="ScoreImageUpdater.hpp" />
+    <ClInclude Include="Ships\ControllerType.hpp" />
+    <ClInclude Include="Ships\Controller\Controller.hpp" />
+    <ClInclude Include="Ships\Controller\NPCController.hpp" />
+    <ClInclude Include="Ships\Controller\PlayerController.hpp" />
+    <ClInclude Include="Ships\Ship.hpp" />
+    <ClInclude Include="Ships\ShipType.hpp" />
+    <ClInclude Include="Snow\SnowManager.hpp" />
+    <ClInclude Include="SpriteLoader\CommonVariables.hpp" />
+    <ClInclude Include="SpriteLoader\ResourceNames.hpp" />
+    <ClInclude Include="SpriteLoader\SpriteLoader.hpp" />
+    <ClInclude Include="SpriteLoader\SpriteResourceList.hpp" />
+    <ClInclude Include="TheApp.hpp" />
+    <ClInclude Include="TheGame.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\bareBonesPassthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\bareBonesPassthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteColorPassthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteColorPassthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpritePassthrough.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpritePassthrough.vert" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteTitleRainbow.frag" />
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteTitleRainbow.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\XML\BulletConfigurations\BulletConfiguration.Standard.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\EnemyShipConfigurations\EnemyShipConfigurations.Basic.xml" />
+    <Xml Include="..\..\Run_Win32\Data\XML\EnemyShips\EnemyShips.Basic.xml" />
+    <Xml Include="..\..\Run_Win32\Data\XML\PlayerShips\PlayerShips.Basic.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

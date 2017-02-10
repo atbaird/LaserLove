@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<EnemyShips>
+  <EnemyShip name='enemyShip1' health='2' scale='1,1' resource='enemyShip1' collisionscale='0.15,0.3' pointsWorth='2'>
+    <!-- Bullet Configurations are just empty nodes within the ship. -->
+    <defaultBullet1/>
+    <defaultBullet2/>
+  </EnemyShip>
+  <EnemyShip name='enemyShip2' health='1' scale='0.5,0.5' resource='enemyShip2' collisionscale='0.075,0.15' pointsWorth='2'>
+    <explodingBullet/>
+  </EnemyShip>
+  <EnemyShip name='enemyShip3' health='2' scale='1,1' resource='enemyShip3' collisionscale='0.15,0.3' speed='0.25' pointsWorth='3'>
+    <spiralExplodingBullet/>
+    <spiralExplodingBullet2/>
+  </EnemyShip>
+  <EnemyShip name='enemyShip4' health='1' scale='0.5,0.5' resource='enemyShip1' collisionscale='0.075,0.15' pointsWorth='1'>
+    <!-- Bullet Configurations are just empty nodes within the ship. -->
+    <defaultBullet3/>
+    <defaultBullet4/>
+  </EnemyShip>
+</EnemyShips>

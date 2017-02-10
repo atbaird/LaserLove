@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="General\Shaders">
+      <UniqueIdentifier>{e7086382-a401-430d-809b-ddedfeaa8828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Shaders\FragmentBuffers">
+      <UniqueIdentifier>{57d90233-dede-4bfa-a701-370aceda29a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameState">
+      <UniqueIdentifier>{9a3d2fe9-950a-4c9e-bfc9-62190cb4e569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\XML">
+      <UniqueIdentifier>{becd0028-ce52-43ff-bd6a-8278dd981ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Snow">
+      <UniqueIdentifier>{3bf58799-ac1d-4b39-9e1b-4dca6d632677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Bullets">
+      <UniqueIdentifier>{b1220048-598d-45b7-a396-aaedb218b5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntity">
+      <UniqueIdentifier>{f0cc4054-9c9b-469c-b4ec-6216162a61eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Ships">
+      <UniqueIdentifier>{6c7ed308-4278-470d-abf1-c0edfd4089ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Collision">
+      <UniqueIdentifier>{db02f578-4f38-40bc-959c-08e4a21a7c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Ships\Controllers">
+      <UniqueIdentifier>{969b6c62-d318-414d-9783-8e66667544a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameListCleaner">
+      <UniqueIdentifier>{f4b344aa-49f0-4c0d-9f54-9343bd53098d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\SpriteLoader">
+      <UniqueIdentifier>{b1214acb-f57d-48d0-ace4-384dfd857913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\BackgroundScroller">
+      <UniqueIdentifier>{f73ce128-3ddb-447c-b361-199585cdcd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\EnemyGenerator">
+      <UniqueIdentifier>{bc48306c-4b3c-43ec-89c9-d667498c595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\XML\EnemyShips">
+      <UniqueIdentifier>{fbfc0d90-0450-4f1b-9270-b32bf2e74b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\XML\Bullets">
+      <UniqueIdentifier>{6f8702b5-d0dc-44f0-ba42-8f9528ab85c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\XML\EnemyShipConfigurations">
+      <UniqueIdentifier>{ffba7df9-06b3-441c-a09f-b300ef6d9c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\HUD">
+      <UniqueIdentifier>{07f97ff6-23c8-444b-9fae-b9b3a5b65da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\XML\PlayerShips">
+      <UniqueIdentifier>{f39e45ff-4ecb-4160-b240-9cc8137b157f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState\GameState.cpp">
+      <Filter>General\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow\SnowManager.cpp">
+      <Filter>General\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullets\Bullet.cpp">
+      <Filter>General\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\GameEntity.cpp">
+      <Filter>General\GameEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\GameEntityType.cpp">
+      <Filter>General\GameEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullets\BulletType.cpp">
+      <Filter>General\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\Ship.cpp">
+      <Filter>General\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\ShipType.cpp">
+      <Filter>General\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\ControllerType.cpp">
+      <Filter>General\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionIntersection.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\EllipseCollision.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\Controller\PlayerController.cpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\Controller\Controller.cpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\Controller\NPCController.cpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameListCleaner\GameListCleaner.cpp">
+      <Filter>General\GameListCleaner</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader\SpriteLoader.cpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader\SpriteResourceList.cpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader\ResourceNames.cpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundScroller\BackgroundScroller.cpp">
+      <Filter>General\BackgroundScroller</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader\CommonVariables.cpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullets\BulletConfiguration.cpp">
+      <Filter>General\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator\EnemyTemplate.cpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator\EnemyConfigurationTemplate.cpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator\EnemyShipGenerator.cpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator\EnemyConfigurationGenerator.cpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD\HUD.cpp">
+      <Filter>General\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="RealGameState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShipSelectImageHandler.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreImageUpdater.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState\GameState.hpp">
+      <Filter>General\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow\SnowManager.hpp">
+      <Filter>General\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets\Bullet.hpp">
+      <Filter>General\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\GameEntity.hpp">
+      <Filter>General\GameEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\GameEntityType.hpp">
+      <Filter>General\GameEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets\BulletType.hpp">
+      <Filter>General\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\Ship.hpp">
+      <Filter>General\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\ShipType.hpp">
+      <Filter>General\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\ControllerType.hpp">
+      <Filter>General\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionIntersection.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\EllipseCollision.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\Controller\PlayerController.hpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\Controller\Controller.hpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\Controller\NPCController.hpp">
+      <Filter>General\Ships\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameListCleaner\GameListCleaner.hpp">
+      <Filter>General\GameListCleaner</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader\SpriteLoader.hpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader\SpriteResourceList.hpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader\ResourceNames.hpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundScroller\BackgroundScroller.hpp">
+      <Filter>General\BackgroundScroller</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader\CommonVariables.hpp">
+      <Filter>General\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets\BulletConfiguration.hpp">
+      <Filter>General\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator\EnemyTemplate.hpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator\EnemyConfigurationTemplate.hpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator\EnemyShipGenerator.hpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator\EnemyConfigurationGenerator.hpp">
+      <Filter>General\EnemyGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD\HUD.hpp">
+      <Filter>General\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="RealGameState.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShipSelectImageHandler.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreImageUpdater.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.vert">
+      <Filter>General\Shaders\FragmentBuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Framebuffers\ScreenPassthrough.frag">
+      <Filter>General\Shaders\FragmentBuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpritePassthrough.vert">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpritePassthrough.frag">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.vert">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\passthrough.frag">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\bareBonesPassthrough.vert">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\bareBonesPassthrough.frag">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteColorPassthrough.frag">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteColorPassthrough.vert">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteTitleRainbow.vert">
+      <Filter>General\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\SpriteTitleRainbow.frag">
+      <Filter>General\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\XML\BulletConfigurations\BulletConfiguration.Standard.xml">
+      <Filter>General\XML\Bullets</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\EnemyShipConfigurations\EnemyShipConfigurations.Basic.xml">
+      <Filter>General\XML\EnemyShipConfigurations</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\EnemyShips\EnemyShips.Basic.xml">
+      <Filter>General\XML\EnemyShips</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\PlayerShips\PlayerShips.Basic.xml">
+      <Filter>General\XML\PlayerShips</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

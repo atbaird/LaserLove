@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpriteResources>
+	<textureLocations>
+		<textureLocation texLocation="Data/Images/Text_Press_Esc_To_Quit.png" spriteID="0" spriteResourceID="0"/>
+		<textureLocation texLocation="Data/Images/Text_Press_Space_To_Start.png" spriteID="0" spriteResourceID="1"/>
+		<textureLocation texLocation="Data/Images/Text_Laser_Love.png" spriteID="0" spriteResourceID="2"/>
+		<textureLocation texLocation="Data/Images/whitespace.png" spriteID="0" spriteResourceID="3"/>
+		<textureLocation texLocation="Data/Images/Outline-Square.png" spriteID="0" spriteResourceID="4"/>
+		<textureLocation texLocation="Data/Images/Numbers/0.png" spriteID="0" spriteResourceID="5"/>
+		<textureLocation texLocation="Data/Images/Numbers/1.png" spriteID="0" spriteResourceID="6"/>
+		<textureLocation texLocation="Data/Images/Numbers/2.png" spriteID="0" spriteResourceID="7"/>
+		<textureLocation texLocation="Data/Images/Numbers/3.png" spriteID="0" spriteResourceID="8"/>
+		<textureLocation texLocation="Data/Images/Numbers/4.png" spriteID="0" spriteResourceID="9"/>
+		<textureLocation texLocation="Data/Images/Numbers/5.png" spriteID="0" spriteResourceID="10"/>
+		<textureLocation texLocation="Data/Images/Numbers/6.png" spriteID="0" spriteResourceID="11"/>
+		<textureLocation texLocation="Data/Images/Numbers/7.png" spriteID="0" spriteResourceID="12"/>
+		<textureLocation texLocation="Data/Images/Numbers/8.png" spriteID="0" spriteResourceID="13"/>
+		<textureLocation texLocation="Data/Images/Numbers/9.png" spriteID="0" spriteResourceID="14"/>
+		<textureLocation texLocation="Data/Images/Press.png" spriteID="0" spriteResourceID="15"/>
+		<textureLocation texLocation="Data/Images/through.png" spriteID="0" spriteResourceID="16"/>
+		<textureLocation texLocation="Data/Images/To Select a Ship.png" spriteID="0" spriteResourceID="17"/>
+		<textureLocation texLocation="Data/Images/Red Smiley.png" spriteID="0" spriteResourceID="18"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="0" spriteResourceID="19"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="1" spriteResourceID="20"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="2" spriteResourceID="21"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="3" spriteResourceID="22"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="4" spriteResourceID="23"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="5" spriteResourceID="24"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="6" spriteResourceID="25"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="7" spriteResourceID="26"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="8" spriteResourceID="27"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="9" spriteResourceID="28"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="10" spriteResourceID="29"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="11" spriteResourceID="30"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="12" spriteResourceID="31"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="13" spriteResourceID="32"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="14" spriteResourceID="33"/>
+		<textureLocation texLocation="Data/Images/M484BulletCollection1.png" spriteID="15" spriteResourceID="34"/>
+		<textureLocation texLocation="Data/Images/ships.png" spriteID="0" spriteResourceID="35"/>
+		<textureLocation texLocation="Data/Images/ships.png" spriteID="1" spriteResourceID="36"/>
+		<textureLocation texLocation="Data/Images/ships.png" spriteID="2" spriteResourceID="37"/>
+		<textureLocation texLocation="Data/Images/ships.png" spriteID="3" spriteResourceID="38"/>
+		<textureLocation texLocation="Data/Images/ships.png" spriteID="4" spriteResourceID="39"/>
+		<textureLocation texLocation="Data/Images/361-0.png" spriteID="0" spriteResourceID="40"/>
+	</textureLocations>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Text_Press_Esc_To_Quit.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Text_Press_Space_To_Start.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Text_Laser_Love.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/whitespace.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Outline-Square.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/0.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/1.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/2.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/3.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/4.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/5.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/6.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/7.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/8.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Numbers/9.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Press.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/through.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/To Select a Ship.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/Red Smiley.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.023070,0.030470,0.036530,0.060900"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="1"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.082690,0.030470,0.101920,0.060900"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="2"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.038460,0.030470,0.059610,0.060900"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="3"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.061530,0.030470,0.080760,0.060900"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="4"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.021100,0.257600,0.028840,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="5"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.034610,0.257600,0.046150,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="6"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.050000,0.257600,0.065300,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="7"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.069200,0.257600,0.082600,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="8"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.088400,0.257600,0.105700,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="9"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.109600,0.257600,0.128800,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="10"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.132600,0.257600,0.153800,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="11"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.157600,0.257600,0.180700,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="12"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.184600,0.257600,0.209600,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="13"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.213400,0.257600,0.240300,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="14"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.244200,0.257600,0.273000,0.299100"
+						imageFilePath="Data/Images/M484BulletCollection1.png"
+						ResourceID="15"
+						VirtualSize="0.200000,0.200000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/ships.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.125000,0.021300,0.375000,0.051600"
+						imageFilePath="Data/Images/ships.png"
+						ResourceID="1"
+						VirtualSize="1.000000,0.150000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.058500,0.315800,0.439400,0.366800"
+						imageFilePath="Data/Images/ships.png"
+						ResourceID="2"
+						VirtualSize="1.000000,0.150000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.152300,0.716900,0.347600,0.743380"
+						imageFilePath="Data/Images/ships.png"
+						ResourceID="3"
+						VirtualSize="1.000000,0.150000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.121000,0.095500,0.376900,0.136400"
+						imageFilePath="Data/Images/ships.png"
+						ResourceID="4"
+						VirtualSize="1.000000,0.150000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+	<SpriteResource 	SpriteCoords="0.000000,0.000000,1.000000,1.000000"
+						imageFilePath="Data/Images/361-0.png"
+						ResourceID="0"
+						VirtualSize="1.000000,1.000000"
+						VertexShader="Data/Shaders/SpritePassthrough.vert"
+						FragmentShader="Data/Shaders/SpritePassthrough.frag"/>
+</SpriteResources>
